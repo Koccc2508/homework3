@@ -1,0 +1,148 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 2px;
+    background-color: rgba(141, 148, 194, 0.959);
+    transition: 0.6s;
+  
+}
+body {
+    /* background-color: #537759;
+    font-family: 'Montserrat', sans-serif;
+    background-image: radial-gradient(#7676a5 2px, transparent 2px); */
+    background-size: 32px 32px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    }
+html {
+        background-image: url(../img/karta-sredizemye-vlastelin-kolets-hobbit.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+      }
+    
+    .glava-menu{
+    text-align: center;
+    height: 40px;
+ }
+ 
+
+
+a{
+    color: rgba(228, 240, 1, 0.953);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+
+#spicok{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    width:300px;
+    height:300px;
+}
+
+p {
+    text-indent: 2em;
+  } 
+
+ img{
+    width: 100%;
+ }
+
+header{
+
+    font-size: 20px;
+    color: #070841;
+}
+
+li{
+    list-style-type: none;
+    margin: 5px;
+}
+ 
+ul{
+    list-style-type: none;
+    margin: 5px;
+}
+
+footer{
+    display: inline-block;
+    margin: 25px 40px;
+    /* background-color: #e72b2b35; */
+}
+
+#aragorn{
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    width: 275px;
+    height:275px;
+    border:1px solid silver;
+}
+#galand{
+    position: absolute;
+    top: 800px;
+    left: 30px;
+    width: 275px;
+    height:275px; 
+    border:1px solid silver;
+}
+#Sauron-2{
+    position: absolute;
+    top: 1100px;
+    left: 30px;
+    width: 275px;
+    height:275px
+    border:1px solid silver;
+}
+
+#gendol{
+    position: absolute;
+    top: 1400px;
+    left: 30px;
+    width: 275px;
+    height:275px;
+    border:1px solid silver;
+}
+#aLf{
+    position: absolute ;
+    top: 1700px;
+    left: 30px;
+    width: 275px;
+    height:275px;
+    border:1px solid silver;
+}
+#rek1{
+    position: absolute ;
+    top: 60px;
+    left: 1215px;
+    width: 280px;
+    height:280px;
+   
+}
+#rek2{
+    position: absolute ;
+    top: 370px;
+    left: 1215px;
+    width: 280px;
+    height:280px;
+}
+ 
